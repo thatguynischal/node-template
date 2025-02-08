@@ -1,0 +1,1326 @@
+[2025-02-08 15:41:14] (error): uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Function.listen (/home/chal/outcode-nodets/node_modules/express/lib/application.js:635:24)
+    at /home/chal/outcode-nodets/src/server.ts:14:9
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/chal/outcode-nodets/src/server.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-02-08 15:44:03] (error): uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Function.listen (/home/chal/outcode-nodets/node_modules/express/lib/application.js:635:24)
+    at /home/chal/outcode-nodets/src/server.ts:14:9
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/chal/outcode-nodets/src/server.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-02-08 15:57:06] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m36[0m - [91merror[0m[90m TS2307: [0mCannot find module '../subscription/routes' or its corresponding type declarations.
+
+[7m2[0m import { subscriptionRoutes } from '../subscription/routes';
+[7m [0m [91m                                   ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m36[0m - [91merror[0m[90m TS2307: [0mCannot find module '../subscription/routes' or its corresponding type declarations.
+
+[7m2[0m import { subscriptionRoutes } from '../subscription/routes';
+[7m [0m [91m                                   ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 15:57:12] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m36[0m - [91merror[0m[90m TS2307: [0mCannot find module '../subscription/routes' or its corresponding type declarations.
+
+[7m2[0m import { subscriptionRoutes } from '../subscription/routes';
+[7m [0m [91m                                   ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m36[0m - [91merror[0m[90m TS2307: [0mCannot find module '../subscription/routes' or its corresponding type declarations.
+
+[7m2[0m import { subscriptionRoutes } from '../subscription/routes';
+[7m [0m [91m                                   ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 15:57:53] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m36[0m - [91merror[0m[90m TS2307: [0mCannot find module '../subscription/routes' or its corresponding type declarations.
+
+[7m2[0m import { subscriptionRoutes } from '../subscription/routes';
+[7m [0m [91m                                   ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m36[0m - [91merror[0m[90m TS2307: [0mCannot find module '../subscription/routes' or its corresponding type declarations.
+
+[7m2[0m import { subscriptionRoutes } from '../subscription/routes';
+[7m [0m [91m                                   ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 15:58:17] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m36[0m - [91merror[0m[90m TS2307: [0mCannot find module '../subscription/routes' or its corresponding type declarations.
+
+[7m2[0m import { subscriptionRoutes } from '../subscription/routes';
+[7m [0m [91m                                   ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m36[0m - [91merror[0m[90m TS2307: [0mCannot find module '../subscription/routes' or its corresponding type declarations.
+
+[7m2[0m import { subscriptionRoutes } from '../subscription/routes';
+[7m [0m [91m                                   ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 16:09:36] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m39[0m:[93m11[0m - [91merror[0m[90m TS18046: [0m'doc._id' is of type 'unknown'.
+
+[7m39[0m       id: doc._id.toString(),
+[7m  [0m [91m          ~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m39[0m:[93m11[0m - [91merror[0m[90m TS18046: [0m'doc._id' is of type 'unknown'.
+
+[7m39[0m       id: doc._id.toString(),
+[7m  [0m [91m          ~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 16:10:17] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m39[0m:[93m11[0m - [91merror[0m[90m TS18046: [0m'doc._id' is of type 'unknown'.
+
+[7m39[0m       id: doc._id.toString(),
+[7m  [0m [91m          ~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m39[0m:[93m11[0m - [91merror[0m[90m TS18046: [0m'doc._id' is of type 'unknown'.
+
+[7m39[0m       id: doc._id.toString(),
+[7m  [0m [91m          ~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:11:37] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m39[0m:[93m11[0m - [91merror[0m[90m TS18046: [0m'doc._id' is of type 'unknown'.
+
+[7m39[0m       id: doc._id.toString(),
+[7m  [0m [91m          ~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m39[0m:[93m11[0m - [91merror[0m[90m TS18046: [0m'doc._id' is of type 'unknown'.
+
+[7m39[0m       id: doc._id.toString(),
+[7m  [0m [91m          ~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:11:50] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m10[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'create' in type 'SubscriptionRepository' is not assignable to the same property in base type 'BaseRepository<ISubscriptionDocument>'.
+  Type '(dto: CreateSubscriptionDto) => Promise<Subscription>' is not assignable to type '(input: Partial<ISubscriptionDocument>) => Promise<ISubscriptionDocument>'.
+    Type 'Promise<Subscription>' is not assignable to type 'Promise<ISubscriptionDocument>'.
+      Type 'Subscription' is missing the following properties from type 'ISubscriptionDocument': _id, $assertPopulated, $clearModifiedPaths, $clone, and 51 more.
+
+[7m10[0m   async create(dto: CreateSubscriptionDto): Promise<Subscription> {
+[7m  [0m [91m        ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m19[0m:[93m38[0m - [91merror[0m[90m TS2339: [0mProperty 'findById' does not exist on type 'BaseRepository<ISubscriptionDocument>'.
+
+[7m19[0m     const subscription = await super.findById(id);
+[7m  [0m [91m                                     ~~~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m28[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'delete' in type 'SubscriptionRepository' is not assignable to the same property in base type 'BaseRepository<ISubscriptionDocument>'.
+  Type '(id: string) => Promise<void>' is not assignable to type '(query: FilterQuery<ISubscriptionDocument>, options?: QueryOptions<unknown>, softDelete?: boolean) => Promise<ISubscriptionDocument | null>'.
+    Types of parameters 'id' and 'query' are incompatible.
+      Type 'FilterQuery<ISubscriptionDocument>' is not assignable to type 'string'.
+
+[7m28[0m   async delete(id: string): Promise<void> {
+[7m  [0m [91m        ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m29[0m:[93m32[0m - [91merror[0m[90m TS2339: [0mProperty 'deleteById' does not exist on type 'BaseRepository<ISubscriptionDocument>'.
+
+[7m29[0m     const result = await super.deleteById(id);
+[7m  [0m [91m                               ~~~~~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m42[0m:[93m11[0m - [91merror[0m[90m TS18046: [0m'doc._id' is of type 'unknown'.
+
+[7m42[0m       id: doc._id.toString(),
+[7m  [0m [91m          ~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m10[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'create' in type 'SubscriptionRepository' is not assignable to the same property in base type 'BaseRepository<ISubscriptionDocument>'.
+  Type '(dto: CreateSubscriptionDto) => Promise<Subscription>' is not assignable to type '(input: Partial<ISubscriptionDocument>) => Promise<ISubscriptionDocument>'.
+    Type 'Promise<Subscription>' is not assignable to type 'Promise<ISubscriptionDocument>'.
+      Type 'Subscription' is missing the following properties from type 'ISubscriptionDocument': _id, $assertPopulated, $clearModifiedPaths, $clone, and 51 more.
+
+[7m10[0m   async create(dto: CreateSubscriptionDto): Promise<Subscription> {
+[7m  [0m [91m        ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m19[0m:[93m38[0m - [91merror[0m[90m TS2339: [0mProperty 'findById' does not exist on type 'BaseRepository<ISubscriptionDocument>'.
+
+[7m19[0m     const subscription = await super.findById(id);
+[7m  [0m [91m                                     ~~~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m28[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'delete' in type 'SubscriptionRepository' is not assignable to the same property in base type 'BaseRepository<ISubscriptionDocument>'.
+  Type '(id: string) => Promise<void>' is not assignable to type '(query: FilterQuery<ISubscriptionDocument>, options?: QueryOptions<unknown>, softDelete?: boolean) => Promise<ISubscriptionDocument | null>'.
+    Types of parameters 'id' and 'query' are incompatible.
+      Type 'FilterQuery<ISubscriptionDocument>' is not assignable to type 'string'.
+
+[7m28[0m   async delete(id: string): Promise<void> {
+[7m  [0m [91m        ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m29[0m:[93m32[0m - [91merror[0m[90m TS2339: [0mProperty 'deleteById' does not exist on type 'BaseRepository<ISubscriptionDocument>'.
+
+[7m29[0m     const result = await super.deleteById(id);
+[7m  [0m [91m                               ~~~~~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m42[0m:[93m11[0m - [91merror[0m[90m TS18046: [0m'doc._id' is of type 'unknown'.
+
+[7m42[0m       id: doc._id.toString(),
+[7m  [0m [91m          ~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:12:06] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m10[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'create' in type 'SubscriptionRepository' is not assignable to the same property in base type 'BaseRepository<ISubscriptionDocument>'.
+  Type '(dto: CreateSubscriptionDto) => Promise<Subscription>' is not assignable to type '(input: Partial<ISubscriptionDocument>) => Promise<ISubscriptionDocument>'.
+    Type 'Promise<Subscription>' is not assignable to type 'Promise<ISubscriptionDocument>'.
+      Type 'Subscription' is missing the following properties from type 'ISubscriptionDocument': _id, $assertPopulated, $clearModifiedPaths, $clone, and 51 more.
+
+[7m10[0m   async create(dto: CreateSubscriptionDto): Promise<Subscription> {
+[7m  [0m [91m        ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m19[0m:[93m38[0m - [91merror[0m[90m TS2339: [0mProperty 'findById' does not exist on type 'BaseRepository<ISubscriptionDocument>'.
+
+[7m19[0m     const subscription = await super.findById(id);
+[7m  [0m [91m                                     ~~~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m28[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'delete' in type 'SubscriptionRepository' is not assignable to the same property in base type 'BaseRepository<ISubscriptionDocument>'.
+  Type '(id: string) => Promise<void>' is not assignable to type '(query: FilterQuery<ISubscriptionDocument>, options?: QueryOptions<unknown>, softDelete?: boolean) => Promise<ISubscriptionDocument | null>'.
+    Types of parameters 'id' and 'query' are incompatible.
+      Type 'FilterQuery<ISubscriptionDocument>' is not assignable to type 'string'.
+
+[7m28[0m   async delete(id: string): Promise<void> {
+[7m  [0m [91m        ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m29[0m:[93m32[0m - [91merror[0m[90m TS2339: [0mProperty 'deleteById' does not exist on type 'BaseRepository<ISubscriptionDocument>'.
+
+[7m29[0m     const result = await super.deleteById(id);
+[7m  [0m [91m                               ~~~~~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m42[0m:[93m11[0m - [91merror[0m[90m TS18046: [0m'doc._id' is of type 'unknown'.
+
+[7m42[0m       id: doc._id.toString(),
+[7m  [0m [91m          ~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m10[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'create' in type 'SubscriptionRepository' is not assignable to the same property in base type 'BaseRepository<ISubscriptionDocument>'.
+  Type '(dto: CreateSubscriptionDto) => Promise<Subscription>' is not assignable to type '(input: Partial<ISubscriptionDocument>) => Promise<ISubscriptionDocument>'.
+    Type 'Promise<Subscription>' is not assignable to type 'Promise<ISubscriptionDocument>'.
+      Type 'Subscription' is missing the following properties from type 'ISubscriptionDocument': _id, $assertPopulated, $clearModifiedPaths, $clone, and 51 more.
+
+[7m10[0m   async create(dto: CreateSubscriptionDto): Promise<Subscription> {
+[7m  [0m [91m        ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m19[0m:[93m38[0m - [91merror[0m[90m TS2339: [0mProperty 'findById' does not exist on type 'BaseRepository<ISubscriptionDocument>'.
+
+[7m19[0m     const subscription = await super.findById(id);
+[7m  [0m [91m                                     ~~~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m28[0m:[93m9[0m - [91merror[0m[90m TS2416: [0mProperty 'delete' in type 'SubscriptionRepository' is not assignable to the same property in base type 'BaseRepository<ISubscriptionDocument>'.
+  Type '(id: string) => Promise<void>' is not assignable to type '(query: FilterQuery<ISubscriptionDocument>, options?: QueryOptions<unknown>, softDelete?: boolean) => Promise<ISubscriptionDocument | null>'.
+    Types of parameters 'id' and 'query' are incompatible.
+      Type 'FilterQuery<ISubscriptionDocument>' is not assignable to type 'string'.
+
+[7m28[0m   async delete(id: string): Promise<void> {
+[7m  [0m [91m        ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m29[0m:[93m32[0m - [91merror[0m[90m TS2339: [0mProperty 'deleteById' does not exist on type 'BaseRepository<ISubscriptionDocument>'.
+
+[7m29[0m     const result = await super.deleteById(id);
+[7m  [0m [91m                               ~~~~~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m42[0m:[93m11[0m - [91merror[0m[90m TS18046: [0m'doc._id' is of type 'unknown'.
+
+[7m42[0m       id: doc._id.toString(),
+[7m  [0m [91m          ~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:13:09] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS2739: [0mType 'ISubscriptionDocument' is missing the following properties from type 'Subscription': createdAt, updatedAt
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m    ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS2739: [0mType 'ISubscriptionDocument' is missing the following properties from type 'Subscription': createdAt, updatedAt
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m    ~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:13:17] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS2739: [0mType 'ISubscriptionDocument' is missing the following properties from type 'Subscription': createdAt, updatedAt
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m    ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS2739: [0mType 'ISubscriptionDocument' is missing the following properties from type 'Subscription': createdAt, updatedAt
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m    ~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:14:36] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS2739: [0mType 'ISubscriptionDocument' is missing the following properties from type 'Subscription': createdAt, updatedAt
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m    ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS2739: [0mType 'ISubscriptionDocument' is missing the following properties from type 'Subscription': createdAt, updatedAt
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m    ~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:15:30] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS2739: [0mType 'ISubscriptionDocument' is missing the following properties from type 'Subscription': createdAt, updatedAt
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m    ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS2739: [0mType 'ISubscriptionDocument' is missing the following properties from type 'Subscription': createdAt, updatedAt
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m    ~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:16:19] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS2739: [0mType 'ISubscriptionDocument' is missing the following properties from type 'Subscription': createdAt, updatedAt
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m    ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS2739: [0mType 'ISubscriptionDocument' is missing the following properties from type 'Subscription': createdAt, updatedAt
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m    ~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:16:59] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS2739: [0mType 'ISubscriptionDocument' is missing the following properties from type 'Subscription': createdAt, updatedAt
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m22[0m:[93m34[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string' is not assignable to parameter of type 'FilterQuery<ISubscriptionDocument>'.
+  Type 'string' is not assignable to type '{ [x: string]: any; userId?: any; eventType?: any; deletedAt?: any; deletedBy?: any; createdBy?: any; updatedBy?: any; __version__?: any; _id?: any; $assertPopulated?: any; $clearModifiedPaths?: any; $clone?: any; ... 53 more ...; validateSync?: any; }'.
+
+[7m22[0m     await this.repository.delete(id);
+[7m  [0m [91m                                 ~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS2739: [0mType 'ISubscriptionDocument' is missing the following properties from type 'Subscription': createdAt, updatedAt
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m22[0m:[93m34[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string' is not assignable to parameter of type 'FilterQuery<ISubscriptionDocument>'.
+  Type 'string' is not assignable to type '{ [x: string]: any; userId?: any; eventType?: any; deletedAt?: any; deletedBy?: any; createdBy?: any; updatedBy?: any; __version__?: any; _id?: any; $assertPopulated?: any; $clearModifiedPaths?: any; $clone?: any; ... 53 more ...; validateSync?: any; }'.
+
+[7m22[0m     await this.repository.delete(id);
+[7m  [0m [91m                                 ~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:17:40] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS2739: [0mType 'ISubscriptionDocument' is missing the following properties from type 'Subscription': createdAt, updatedAt
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m22[0m:[93m34[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string' is not assignable to parameter of type 'FilterQuery<ISubscriptionDocument>'.
+  Type 'string' is not assignable to type '{ [x: string]: any; userId?: any; eventType?: any; deletedAt?: any; deletedBy?: any; createdBy?: any; updatedBy?: any; __version__?: any; _id?: any; $assertPopulated?: any; $clearModifiedPaths?: any; $clone?: any; ... 53 more ...; validateSync?: any; }'.
+
+[7m22[0m     await this.repository.delete(id);
+[7m  [0m [91m                                 ~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS2739: [0mType 'ISubscriptionDocument' is missing the following properties from type 'Subscription': createdAt, updatedAt
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m22[0m:[93m34[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string' is not assignable to parameter of type 'FilterQuery<ISubscriptionDocument>'.
+  Type 'string' is not assignable to type '{ [x: string]: any; userId?: any; eventType?: any; deletedAt?: any; deletedBy?: any; createdBy?: any; updatedBy?: any; __version__?: any; _id?: any; $assertPopulated?: any; $clearModifiedPaths?: any; $clone?: any; ... 53 more ...; validateSync?: any; }'.
+
+[7m22[0m     await this.repository.delete(id);
+[7m  [0m [91m                                 ~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:18:19] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS2739: [0mType 'ISubscriptionDocument' is missing the following properties from type 'Subscription': createdAt, updatedAt
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m22[0m:[93m34[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string' is not assignable to parameter of type 'FilterQuery<ISubscriptionDocument>'.
+  Type 'string' is not assignable to type '{ [x: string]: any; userId?: any; eventType?: any; deletedAt?: any; deletedBy?: any; createdBy?: any; updatedBy?: any; __version__?: any; _id?: any; $assertPopulated?: any; $clearModifiedPaths?: any; $clone?: any; ... 53 more ...; validateSync?: any; }'.
+
+[7m22[0m     await this.repository.delete(id);
+[7m  [0m [91m                                 ~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS2739: [0mType 'ISubscriptionDocument' is missing the following properties from type 'Subscription': createdAt, updatedAt
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m22[0m:[93m34[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string' is not assignable to parameter of type 'FilterQuery<ISubscriptionDocument>'.
+  Type 'string' is not assignable to type '{ [x: string]: any; userId?: any; eventType?: any; deletedAt?: any; deletedBy?: any; createdBy?: any; updatedBy?: any; __version__?: any; _id?: any; $assertPopulated?: any; $clearModifiedPaths?: any; $clone?: any; ... 53 more ...; validateSync?: any; }'.
+
+[7m22[0m     await this.repository.delete(id);
+[7m  [0m [91m                                 ~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:19:57] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS2739: [0mType 'ISubscriptionDocument' is missing the following properties from type 'Subscription': createdAt, updatedAt
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m22[0m:[93m34[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string' is not assignable to parameter of type 'FilterQuery<ISubscriptionDocument>'.
+  Type 'string' is not assignable to type '{ [x: string]: any; userId?: any; eventType?: any; deletedAt?: any; deletedBy?: any; createdBy?: any; updatedBy?: any; __version__?: any; _id?: any; $assertPopulated?: any; $clearModifiedPaths?: any; $clone?: any; ... 53 more ...; validateSync?: any; }'.
+
+[7m22[0m     await this.repository.delete(id);
+[7m  [0m [91m                                 ~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS2739: [0mType 'ISubscriptionDocument' is missing the following properties from type 'Subscription': createdAt, updatedAt
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m22[0m:[93m34[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string' is not assignable to parameter of type 'FilterQuery<ISubscriptionDocument>'.
+  Type 'string' is not assignable to type '{ [x: string]: any; userId?: any; eventType?: any; deletedAt?: any; deletedBy?: any; createdBy?: any; updatedBy?: any; __version__?: any; _id?: any; $assertPopulated?: any; $clearModifiedPaths?: any; $clone?: any; ... 53 more ...; validateSync?: any; }'.
+
+[7m22[0m     await this.repository.delete(id);
+[7m  [0m [91m                                 ~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:20:07] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS2739: [0mType 'ISubscriptionDocument' is missing the following properties from type 'Subscription': createdAt, updatedAt
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m22[0m:[93m34[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string' is not assignable to parameter of type 'FilterQuery<ISubscriptionDocument>'.
+  Type 'string' is not assignable to type '{ [x: string]: any; userId?: any; eventType?: any; deletedAt?: any; deletedBy?: any; createdBy?: any; updatedBy?: any; __version__?: any; _id?: any; $assertPopulated?: any; $clearModifiedPaths?: any; $clone?: any; ... 53 more ...; validateSync?: any; }'.
+
+[7m22[0m     await this.repository.delete(id);
+[7m  [0m [91m                                 ~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS2739: [0mType 'ISubscriptionDocument' is missing the following properties from type 'Subscription': createdAt, updatedAt
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m22[0m:[93m34[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string' is not assignable to parameter of type 'FilterQuery<ISubscriptionDocument>'.
+  Type 'string' is not assignable to type '{ [x: string]: any; userId?: any; eventType?: any; deletedAt?: any; deletedBy?: any; createdBy?: any; updatedBy?: any; __version__?: any; _id?: any; $assertPopulated?: any; $clearModifiedPaths?: any; $clone?: any; ... 53 more ...; validateSync?: any; }'.
+
+[7m22[0m     await this.repository.delete(id);
+[7m  [0m [91m                                 ~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:21:54] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m2[0m:[93m40[0m - [91merror[0m[90m TS2306: [0mFile '/home/chal/outcode-nodets/src/apps/subscription/repositories/subscription.repository.ts' is not a module.
+
+[7m2[0m import { SubscriptionRepository } from '../repositories/subscription.repository';
+[7m [0m [91m                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m2[0m:[93m40[0m - [91merror[0m[90m TS2306: [0mFile '/home/chal/outcode-nodets/src/apps/subscription/repositories/subscription.repository.ts' is not a module.
+
+[7m2[0m import { SubscriptionRepository } from '../repositories/subscription.repository';
+[7m [0m [91m                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:23:36] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS2739: [0mType 'ISubscriptionDocument' is missing the following properties from type 'Subscription': createdAt, updatedAt
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m22[0m:[93m34[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string' is not assignable to parameter of type 'FilterQuery<ISubscriptionDocument>'.
+  Type 'string' is not assignable to type '{ [x: string]: any; userId?: any; eventType?: any; deletedAt?: any; deletedBy?: any; createdBy?: any; updatedBy?: any; __version__?: any; _id?: any; $assertPopulated?: any; $clearModifiedPaths?: any; $clone?: any; ... 53 more ...; validateSync?: any; }'.
+
+[7m22[0m     await this.repository.delete(id);
+[7m  [0m [91m                                 ~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m26[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'ISubscriptionDocument[]' is not assignable to type 'Subscription[]'.
+  Type 'ISubscriptionDocument' is missing the following properties from type 'Subscription': createdAt, updatedAt
+
+[7m26[0m     return this.repository.findByUserId(userId);
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m30[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'findById' does not exist on type 'SubscriptionRepository'.
+
+[7m30[0m     return this.repository.findById(id);
+[7m  [0m [91m                           ~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS2739: [0mType 'ISubscriptionDocument' is missing the following properties from type 'Subscription': createdAt, updatedAt
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m22[0m:[93m34[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string' is not assignable to parameter of type 'FilterQuery<ISubscriptionDocument>'.
+  Type 'string' is not assignable to type '{ [x: string]: any; userId?: any; eventType?: any; deletedAt?: any; deletedBy?: any; createdBy?: any; updatedBy?: any; __version__?: any; _id?: any; $assertPopulated?: any; $clearModifiedPaths?: any; $clone?: any; ... 53 more ...; validateSync?: any; }'.
+
+[7m22[0m     await this.repository.delete(id);
+[7m  [0m [91m                                 ~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m26[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'ISubscriptionDocument[]' is not assignable to type 'Subscription[]'.
+  Type 'ISubscriptionDocument' is missing the following properties from type 'Subscription': createdAt, updatedAt
+
+[7m26[0m     return this.repository.findByUserId(userId);
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m30[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'findById' does not exist on type 'SubscriptionRepository'.
+
+[7m30[0m     return this.repository.findById(id);
+[7m  [0m [91m                           ~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:23:47] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS2739: [0mType 'ISubscriptionDocument' is missing the following properties from type 'Subscription': createdAt, updatedAt
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m22[0m:[93m34[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string' is not assignable to parameter of type 'FilterQuery<ISubscriptionDocument>'.
+  Type 'string' is not assignable to type '{ [x: string]: any; userId?: any; eventType?: any; deletedAt?: any; deletedBy?: any; createdBy?: any; updatedBy?: any; __version__?: any; _id?: any; $assertPopulated?: any; $clearModifiedPaths?: any; $clone?: any; ... 53 more ...; validateSync?: any; }'.
+
+[7m22[0m     await this.repository.delete(id);
+[7m  [0m [91m                                 ~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m26[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'ISubscriptionDocument[]' is not assignable to type 'Subscription[]'.
+  Type 'ISubscriptionDocument' is missing the following properties from type 'Subscription': createdAt, updatedAt
+
+[7m26[0m     return this.repository.findByUserId(userId);
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m30[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'findById' does not exist on type 'SubscriptionRepository'.
+
+[7m30[0m     return this.repository.findById(id);
+[7m  [0m [91m                           ~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS2739: [0mType 'ISubscriptionDocument' is missing the following properties from type 'Subscription': createdAt, updatedAt
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m22[0m:[93m34[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string' is not assignable to parameter of type 'FilterQuery<ISubscriptionDocument>'.
+  Type 'string' is not assignable to type '{ [x: string]: any; userId?: any; eventType?: any; deletedAt?: any; deletedBy?: any; createdBy?: any; updatedBy?: any; __version__?: any; _id?: any; $assertPopulated?: any; $clearModifiedPaths?: any; $clone?: any; ... 53 more ...; validateSync?: any; }'.
+
+[7m22[0m     await this.repository.delete(id);
+[7m  [0m [91m                                 ~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m26[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'ISubscriptionDocument[]' is not assignable to type 'Subscription[]'.
+  Type 'ISubscriptionDocument' is missing the following properties from type 'Subscription': createdAt, updatedAt
+
+[7m26[0m     return this.repository.findByUserId(userId);
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m30[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'findById' does not exist on type 'SubscriptionRepository'.
+
+[7m30[0m     return this.repository.findById(id);
+[7m  [0m [91m                           ~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:24:48] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'create' does not exist on type 'SubscriptionRepository'.
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m                           ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m22[0m:[93m27[0m - [91merror[0m[90m TS2339: [0mProperty 'delete' does not exist on type 'SubscriptionRepository'.
+
+[7m22[0m     await this.repository.delete(id);
+[7m  [0m [91m                          ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m26[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'ISubscriptionDocument[]' is not assignable to type 'Subscription[]'.
+  Type 'ISubscriptionDocument' is missing the following properties from type 'Subscription': id, createdAt, updatedAt
+
+[7m26[0m     return this.repository.findByUserId(userId);
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m30[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'findById' does not exist on type 'SubscriptionRepository'.
+
+[7m30[0m     return this.repository.findById(id);
+[7m  [0m [91m                           ~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'create' does not exist on type 'SubscriptionRepository'.
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m                           ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m22[0m:[93m27[0m - [91merror[0m[90m TS2339: [0mProperty 'delete' does not exist on type 'SubscriptionRepository'.
+
+[7m22[0m     await this.repository.delete(id);
+[7m  [0m [91m                          ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m26[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'ISubscriptionDocument[]' is not assignable to type 'Subscription[]'.
+  Type 'ISubscriptionDocument' is missing the following properties from type 'Subscription': id, createdAt, updatedAt
+
+[7m26[0m     return this.repository.findByUserId(userId);
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m30[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'findById' does not exist on type 'SubscriptionRepository'.
+
+[7m30[0m     return this.repository.findById(id);
+[7m  [0m [91m                           ~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:25:10] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m2[0m:[93m40[0m - [91merror[0m[90m TS2306: [0mFile '/home/chal/outcode-nodets/src/apps/subscription/repositories/subscription.repository.ts' is not a module.
+
+[7m2[0m import { SubscriptionRepository } from '../repositories/subscription.repository';
+[7m [0m [91m                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m2[0m:[93m40[0m - [91merror[0m[90m TS2306: [0mFile '/home/chal/outcode-nodets/src/apps/subscription/repositories/subscription.repository.ts' is not a module.
+
+[7m2[0m import { SubscriptionRepository } from '../repositories/subscription.repository';
+[7m [0m [91m                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:25:49] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m2[0m:[93m40[0m - [91merror[0m[90m TS2306: [0mFile '/home/chal/outcode-nodets/src/apps/subscription/repositories/subscription.repository.ts' is not a module.
+
+[7m2[0m import { SubscriptionRepository } from '../repositories/subscription.repository';
+[7m [0m [91m                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m2[0m:[93m40[0m - [91merror[0m[90m TS2306: [0mFile '/home/chal/outcode-nodets/src/apps/subscription/repositories/subscription.repository.ts' is not a module.
+
+[7m2[0m import { SubscriptionRepository } from '../repositories/subscription.repository';
+[7m [0m [91m                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:26:06] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'ISubscriptionDocument' is not assignable to type 'Subscription'.
+  Property 'id' is optional in type 'ISubscriptionDocument' but required in type 'Subscription'.
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m22[0m:[93m34[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string' is not assignable to parameter of type 'FilterQuery<ISubscriptionDocument>'.
+  Type 'string' is not assignable to type 'RootQuerySelector<ISubscriptionDocument>'.
+
+[7m22[0m     await this.repository.delete(id);
+[7m  [0m [91m                                 ~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m26[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'ISubscriptionDocument[]' is not assignable to type 'Subscription[]'.
+  Type 'ISubscriptionDocument' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'ISubscriptionDocument' but required in type 'Subscription'.
+
+[7m26[0m     return this.repository.findByUserId(userId);
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m30[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'findById' does not exist on type 'SubscriptionRepository'.
+
+[7m30[0m     return this.repository.findById(id);
+[7m  [0m [91m                           ~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'ISubscriptionDocument' is not assignable to type 'Subscription'.
+  Property 'id' is optional in type 'ISubscriptionDocument' but required in type 'Subscription'.
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m22[0m:[93m34[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string' is not assignable to parameter of type 'FilterQuery<ISubscriptionDocument>'.
+  Type 'string' is not assignable to type 'RootQuerySelector<ISubscriptionDocument>'.
+
+[7m22[0m     await this.repository.delete(id);
+[7m  [0m [91m                                 ~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m26[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'ISubscriptionDocument[]' is not assignable to type 'Subscription[]'.
+  Type 'ISubscriptionDocument' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'ISubscriptionDocument' but required in type 'Subscription'.
+
+[7m26[0m     return this.repository.findByUserId(userId);
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m30[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'findById' does not exist on type 'SubscriptionRepository'.
+
+[7m30[0m     return this.repository.findById(id);
+[7m  [0m [91m                           ~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:26:21] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'ISubscriptionDocument' is not assignable to type 'Subscription'.
+  Property 'id' is optional in type 'ISubscriptionDocument' but required in type 'Subscription'.
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m22[0m:[93m34[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string' is not assignable to parameter of type 'FilterQuery<ISubscriptionDocument>'.
+  Type 'string' is not assignable to type 'RootQuerySelector<ISubscriptionDocument>'.
+
+[7m22[0m     await this.repository.delete(id);
+[7m  [0m [91m                                 ~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m26[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'ISubscriptionDocument[]' is not assignable to type 'Subscription[]'.
+  Type 'ISubscriptionDocument' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'ISubscriptionDocument' but required in type 'Subscription'.
+
+[7m26[0m     return this.repository.findByUserId(userId);
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m30[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'findById' does not exist on type 'SubscriptionRepository'.
+
+[7m30[0m     return this.repository.findById(id);
+[7m  [0m [91m                           ~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'ISubscriptionDocument' is not assignable to type 'Subscription'.
+  Property 'id' is optional in type 'ISubscriptionDocument' but required in type 'Subscription'.
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m22[0m:[93m34[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string' is not assignable to parameter of type 'FilterQuery<ISubscriptionDocument>'.
+  Type 'string' is not assignable to type 'RootQuerySelector<ISubscriptionDocument>'.
+
+[7m22[0m     await this.repository.delete(id);
+[7m  [0m [91m                                 ~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m26[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'ISubscriptionDocument[]' is not assignable to type 'Subscription[]'.
+  Type 'ISubscriptionDocument' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'ISubscriptionDocument' but required in type 'Subscription'.
+
+[7m26[0m     return this.repository.findByUserId(userId);
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m30[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'findById' does not exist on type 'SubscriptionRepository'.
+
+[7m30[0m     return this.repository.findById(id);
+[7m  [0m [91m                           ~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:27:54] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'ISubscriptionDocument' is not assignable to type 'Subscription'.
+  Property 'id' is optional in type 'ISubscriptionDocument' but required in type 'Subscription'.
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m22[0m:[93m34[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string' is not assignable to parameter of type 'FilterQuery<ISubscriptionDocument>'.
+  Type 'string' is not assignable to type 'RootQuerySelector<ISubscriptionDocument>'.
+
+[7m22[0m     await this.repository.delete(id);
+[7m  [0m [91m                                 ~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m26[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'ISubscriptionDocument[]' is not assignable to type 'Subscription[]'.
+  Type 'ISubscriptionDocument' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'ISubscriptionDocument' but required in type 'Subscription'.
+
+[7m26[0m     return this.repository.findByUserId(userId);
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m30[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'findById' does not exist on type 'SubscriptionRepository'.
+
+[7m30[0m     return this.repository.findById(id);
+[7m  [0m [91m                           ~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'ISubscriptionDocument' is not assignable to type 'Subscription'.
+  Property 'id' is optional in type 'ISubscriptionDocument' but required in type 'Subscription'.
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m22[0m:[93m34[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string' is not assignable to parameter of type 'FilterQuery<ISubscriptionDocument>'.
+  Type 'string' is not assignable to type 'RootQuerySelector<ISubscriptionDocument>'.
+
+[7m22[0m     await this.repository.delete(id);
+[7m  [0m [91m                                 ~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m26[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'ISubscriptionDocument[]' is not assignable to type 'Subscription[]'.
+  Type 'ISubscriptionDocument' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'ISubscriptionDocument' but required in type 'Subscription'.
+
+[7m26[0m     return this.repository.findByUserId(userId);
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m30[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'findById' does not exist on type 'SubscriptionRepository'.
+
+[7m30[0m     return this.repository.findById(id);
+[7m  [0m [91m                           ~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:28:12] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m15[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>[]' is not assignable to type 'Subscription[]'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m15[0m     return docs.map(doc => doc.toJSON());
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m27[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }> | null' is not assignable to type 'Subscription | null'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m27[0m     return doc ? doc.toJSON() : null;
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m32[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }> | null' is not assignable to type 'Subscription | null'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m32[0m     return doc ? doc.toJSON() : null;
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m37[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+  Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m37[0m     return doc.toJSON();
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m54[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }> | null' is not assignable to type 'Subscription | null'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m54[0m     return doc ? doc.toJSON() : null;
+[7m  [0m [91m    ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m15[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>[]' is not assignable to type 'Subscription[]'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m15[0m     return docs.map(doc => doc.toJSON());
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m27[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }> | null' is not assignable to type 'Subscription | null'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m27[0m     return doc ? doc.toJSON() : null;
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m32[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }> | null' is not assignable to type 'Subscription | null'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m32[0m     return doc ? doc.toJSON() : null;
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m37[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+  Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m37[0m     return doc.toJSON();
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m54[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }> | null' is not assignable to type 'Subscription | null'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m54[0m     return doc ? doc.toJSON() : null;
+[7m  [0m [91m    ~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:28:25] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m15[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>[]' is not assignable to type 'Subscription[]'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m15[0m     return docs.map(doc => doc.toJSON());
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m27[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }> | null' is not assignable to type 'Subscription | null'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m27[0m     return doc ? doc.toJSON() : null;
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m32[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }> | null' is not assignable to type 'Subscription | null'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m32[0m     return doc ? doc.toJSON() : null;
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m37[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+  Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m37[0m     return doc.toJSON();
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m54[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }> | null' is not assignable to type 'Subscription | null'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m54[0m     return doc ? doc.toJSON() : null;
+[7m  [0m [91m    ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m15[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>[]' is not assignable to type 'Subscription[]'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m15[0m     return docs.map(doc => doc.toJSON());
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m27[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }> | null' is not assignable to type 'Subscription | null'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m27[0m     return doc ? doc.toJSON() : null;
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m32[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }> | null' is not assignable to type 'Subscription | null'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m32[0m     return doc ? doc.toJSON() : null;
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m37[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+  Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m37[0m     return doc.toJSON();
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m54[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }> | null' is not assignable to type 'Subscription | null'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m54[0m     return doc ? doc.toJSON() : null;
+[7m  [0m [91m    ~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:28:49] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m15[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>[]' is not assignable to type 'Subscription[]'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m15[0m     return docs.map(doc => doc.toJSON());
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m27[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }> | null' is not assignable to type 'Subscription | null'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m27[0m     return doc ? doc.toJSON() : null;
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m32[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }> | null' is not assignable to type 'Subscription | null'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m32[0m     return doc ? doc.toJSON() : null;
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m37[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+  Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m37[0m     return doc.toJSON();
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m54[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }> | null' is not assignable to type 'Subscription | null'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m54[0m     return doc ? doc.toJSON() : null;
+[7m  [0m [91m    ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m15[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>[]' is not assignable to type 'Subscription[]'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m15[0m     return docs.map(doc => doc.toJSON());
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m27[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }> | null' is not assignable to type 'Subscription | null'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m27[0m     return doc ? doc.toJSON() : null;
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m32[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }> | null' is not assignable to type 'Subscription | null'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m32[0m     return doc ? doc.toJSON() : null;
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m37[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+  Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m37[0m     return doc.toJSON();
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m54[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }> | null' is not assignable to type 'Subscription | null'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m54[0m     return doc ? doc.toJSON() : null;
+[7m  [0m [91m    ~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:30:54] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m32[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }> | null' is not assignable to type 'Subscription | null'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m32[0m     return doc ? doc.toJSON() : null;
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m37[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+  Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m37[0m     return doc.toJSON();
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m54[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }> | null' is not assignable to type 'Subscription | null'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m54[0m     return doc ? doc.toJSON() : null;
+[7m  [0m [91m    ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m32[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }> | null' is not assignable to type 'Subscription | null'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m32[0m     return doc ? doc.toJSON() : null;
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m37[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+  Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m37[0m     return doc.toJSON();
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m54[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }> | null' is not assignable to type 'Subscription | null'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m54[0m     return doc ? doc.toJSON() : null;
+[7m  [0m [91m    ~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:31:05] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m32[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }> | null' is not assignable to type 'Subscription | null'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m32[0m     return doc ? doc.toJSON() : null;
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m37[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+  Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m37[0m     return doc.toJSON();
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m54[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }> | null' is not assignable to type 'Subscription | null'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m54[0m     return doc ? doc.toJSON() : null;
+[7m  [0m [91m    ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m32[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }> | null' is not assignable to type 'Subscription | null'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m32[0m     return doc ? doc.toJSON() : null;
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m37[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+  Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m37[0m     return doc.toJSON();
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m54[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }> | null' is not assignable to type 'Subscription | null'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m54[0m     return doc ? doc.toJSON() : null;
+[7m  [0m [91m    ~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:31:47] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m37[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+  Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m37[0m     return doc.toJSON();
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m54[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }> | null' is not assignable to type 'Subscription | null'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m54[0m     return doc ? doc.toJSON() : null;
+[7m  [0m [91m    ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m37[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+  Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m37[0m     return doc.toJSON();
+[7m  [0m [91m    ~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m54[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }> | null' is not assignable to type 'Subscription | null'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m54[0m     return doc ? doc.toJSON() : null;
+[7m  [0m [91m    ~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:32:30] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m54[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }> | null' is not assignable to type 'Subscription | null'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m54[0m     return doc ? doc.toJSON() : null;
+[7m  [0m [91m    ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m54[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }> | null' is not assignable to type 'Subscription | null'.
+  Type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' is not assignable to type 'Subscription'.
+    Property 'id' is optional in type 'FlattenMaps<ISubscriptionDocument & Required<{ _id: unknown; }> & { __v: number; }>' but required in type 'Subscription'.
+
+[7m54[0m     return doc ? doc.toJSON() : null;
+[7m  [0m [91m    ~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)

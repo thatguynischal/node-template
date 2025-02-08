@@ -1,11 +1,7 @@
 import { Router } from 'express';
-// import { AppRoutes, AuthRoutes, OTPRoutes, UserRoutes } from '../../apps';
-
+import { subscriptionRoutes } from '../../apps';
 const router = Router();
 
-// router.use('/', AppRoutes);
-// router.use('/users', UserRoutes);
-// router.use('/otp', OTPRoutes);
-// router.use('/auth', AuthRoutes);
+router.use('/subscription', subscriptionRoutes);
 
 export default router;
