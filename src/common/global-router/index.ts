@@ -1,7 +1,7 @@
 import { Router } from 'express';
-import { subscriptionRoutes } from '../../apps';
+import { SubscriptionRoutes } from '../../apps/subscription';
 const router = Router();
 
-router.use('/subscription', subscriptionRoutes);
+router.use('/subscription', SubscriptionRoutes);
 
 export default router;

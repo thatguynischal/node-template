@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { SubscriptionController } from '../controllers/subscription.controller';
+import { SubscriptionController } from '../controllers';
 
 const router = Router();
 const controller = new SubscriptionController();

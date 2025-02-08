@@ -1,7 +1,13 @@
-import mongoose, { Document } from 'mongoose';
-import { EventType, Subscription } from '../types';
+import mongoose from 'mongoose';
+import { BaseDocument, BaseModelFields } from '../../../core/base';
+import { EventType, Subscription as SubscriptionType } from '../types';
 
-export interface ISubscriptionDocument extends Document, Omit<Subscription, 'id'> {
+export interface Subscription extends BaseModelFields {
+  userId: string;
+  eventType: EventType;
+}
+
+export interface ISubscriptionDocument extends BaseDocument, Omit<Subscription, 'id'> {
   deletedAt: Date | null;
 }
 

@@ -1,7 +1,7 @@
 import { CreateSubscriptionDto, Subscription, EventType } from '../types';
-import { SubscriptionRepository } from '../repositories/subscription.repository';
+import { SubscriptionRepository } from '../repositories';
 
-export class SubscriptionService {
+class SubscriptionService {
   private repository: SubscriptionRepository;
 
   constructor() {
@@ -27,7 +27,7 @@ export class SubscriptionService {
   }
 
   async getUserSubscriptions(userId: string): Promise<Subscription[]> {
-    return this.repository.findByUserId(userId);
+    return this.repository.findAll({ userId });
   }
 
   async getSubscription(id: string): Promise<Subscription> {
@@ -42,3 +42,5 @@ export class SubscriptionService {
     return this.repository.findByEventType(eventType);
   }
 }
+
+export default SubscriptionService;

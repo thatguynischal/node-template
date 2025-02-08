@@ -1324,3 +1324,1113 @@ TSError: ⨯ Unable to compile TypeScript:
     at Module.load (node:internal/modules/cjs/loader:1207:32)
     at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
     at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:42:20] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m15[0m:[93m28[0m - [91merror[0m[90m TS2352: [0mConversion of type 'FlattenMaps<ISubscriptionDocument & { _id: ObjectId; } & { __v: number; }>' to type 'Subscription' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+  Property 'id' is missing in type 'FlattenMaps<ISubscriptionDocument & { _id: ObjectId; } & { __v: number; }>' but required in type 'Subscription'.
+
+[7m15[0m     return docs.map(doc => doc.toJSON() as Subscription);
+[7m  [0m [91m                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/apps/subscription/types/index.ts[0m:[93m7[0m:[93m3[0m
+    [7m7[0m   id: string;
+    [7m [0m [96m  ~~[0m
+    'id' is declared here.
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m27[0m:[93m19[0m - [91merror[0m[90m TS2352: [0mConversion of type 'FlattenMaps<ISubscriptionDocument & { _id: ObjectId; } & { __v: number; }>' to type 'Subscription' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+  Property 'id' is missing in type 'FlattenMaps<ISubscriptionDocument & { _id: ObjectId; } & { __v: number; }>' but required in type 'Subscription'.
+
+[7m27[0m     return doc ? (doc.toJSON() as Subscription) : null;
+[7m  [0m [91m                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/apps/subscription/types/index.ts[0m:[93m7[0m:[93m3[0m
+    [7m7[0m   id: string;
+    [7m [0m [96m  ~~[0m
+    'id' is declared here.
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m32[0m:[93m19[0m - [91merror[0m[90m TS2352: [0mConversion of type 'FlattenMaps<ISubscriptionDocument & { _id: ObjectId; } & { __v: number; }>' to type 'Subscription' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+  Property 'id' is missing in type 'FlattenMaps<ISubscriptionDocument & { _id: ObjectId; } & { __v: number; }>' but required in type 'Subscription'.
+
+[7m32[0m     return doc ? (doc.toJSON() as Subscription) : null;
+[7m  [0m [91m                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/apps/subscription/types/index.ts[0m:[93m7[0m:[93m3[0m
+    [7m7[0m   id: string;
+    [7m [0m [96m  ~~[0m
+    'id' is declared here.
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m54[0m:[93m19[0m - [91merror[0m[90m TS2352: [0mConversion of type 'FlattenMaps<ISubscriptionDocument & { _id: ObjectId; } & { __v: number; }>' to type 'Subscription' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+  Property 'id' is missing in type 'FlattenMaps<ISubscriptionDocument & { _id: ObjectId; } & { __v: number; }>' but required in type 'Subscription'.
+
+[7m54[0m     return doc ? (doc.toJSON() as Subscription) : null;
+[7m  [0m [91m                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/apps/subscription/types/index.ts[0m:[93m7[0m:[93m3[0m
+    [7m7[0m   id: string;
+    [7m [0m [96m  ~~[0m
+    'id' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m15[0m:[93m28[0m - [91merror[0m[90m TS2352: [0mConversion of type 'FlattenMaps<ISubscriptionDocument & { _id: ObjectId; } & { __v: number; }>' to type 'Subscription' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+  Property 'id' is missing in type 'FlattenMaps<ISubscriptionDocument & { _id: ObjectId; } & { __v: number; }>' but required in type 'Subscription'.
+
+[7m15[0m     return docs.map(doc => doc.toJSON() as Subscription);
+[7m  [0m [91m                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/apps/subscription/types/index.ts[0m:[93m7[0m:[93m3[0m
+    [7m7[0m   id: string;
+    [7m [0m [96m  ~~[0m
+    'id' is declared here.
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m27[0m:[93m19[0m - [91merror[0m[90m TS2352: [0mConversion of type 'FlattenMaps<ISubscriptionDocument & { _id: ObjectId; } & { __v: number; }>' to type 'Subscription' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+  Property 'id' is missing in type 'FlattenMaps<ISubscriptionDocument & { _id: ObjectId; } & { __v: number; }>' but required in type 'Subscription'.
+
+[7m27[0m     return doc ? (doc.toJSON() as Subscription) : null;
+[7m  [0m [91m                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/apps/subscription/types/index.ts[0m:[93m7[0m:[93m3[0m
+    [7m7[0m   id: string;
+    [7m [0m [96m  ~~[0m
+    'id' is declared here.
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m32[0m:[93m19[0m - [91merror[0m[90m TS2352: [0mConversion of type 'FlattenMaps<ISubscriptionDocument & { _id: ObjectId; } & { __v: number; }>' to type 'Subscription' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+  Property 'id' is missing in type 'FlattenMaps<ISubscriptionDocument & { _id: ObjectId; } & { __v: number; }>' but required in type 'Subscription'.
+
+[7m32[0m     return doc ? (doc.toJSON() as Subscription) : null;
+[7m  [0m [91m                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/apps/subscription/types/index.ts[0m:[93m7[0m:[93m3[0m
+    [7m7[0m   id: string;
+    [7m [0m [96m  ~~[0m
+    'id' is declared here.
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m54[0m:[93m19[0m - [91merror[0m[90m TS2352: [0mConversion of type 'FlattenMaps<ISubscriptionDocument & { _id: ObjectId; } & { __v: number; }>' to type 'Subscription' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+  Property 'id' is missing in type 'FlattenMaps<ISubscriptionDocument & { _id: ObjectId; } & { __v: number; }>' but required in type 'Subscription'.
+
+[7m54[0m     return doc ? (doc.toJSON() as Subscription) : null;
+[7m  [0m [91m                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/apps/subscription/types/index.ts[0m:[93m7[0m:[93m3[0m
+    [7m7[0m   id: string;
+    [7m [0m [96m  ~~[0m
+    'id' is declared here.
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:42:28] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"../../../core/base"' has no exported member 'BaseRepository'.
+
+[7m2[0m import { BaseRepository } from '../../../core/base';
+[7m [0m [91m         ~~~~~~~~~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m24[0m:[93m28[0m - [91merror[0m[90m TS2352: [0mConversion of type 'FlattenMaps<ISubscriptionDocument & { _id: ObjectId; } & { __v: number; }>' to type 'Subscription' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+  Property 'id' is missing in type 'FlattenMaps<ISubscriptionDocument & { _id: ObjectId; } & { __v: number; }>' but required in type 'Subscription'.
+
+[7m24[0m     return docs.map(doc => doc.toJSON() as Subscription);
+[7m  [0m [91m                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/apps/subscription/types/index.ts[0m:[93m7[0m:[93m3[0m
+    [7m7[0m   id: string;
+    [7m [0m [96m  ~~[0m
+    'id' is declared here.
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m36[0m:[93m19[0m - [91merror[0m[90m TS2352: [0mConversion of type 'FlattenMaps<ISubscriptionDocument & { _id: ObjectId; } & { __v: number; }>' to type 'Subscription' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+  Property 'id' is missing in type 'FlattenMaps<ISubscriptionDocument & { _id: ObjectId; } & { __v: number; }>' but required in type 'Subscription'.
+
+[7m36[0m     return doc ? (doc.toJSON() as Subscription) : null;
+[7m  [0m [91m                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/apps/subscription/types/index.ts[0m:[93m7[0m:[93m3[0m
+    [7m7[0m   id: string;
+    [7m [0m [96m  ~~[0m
+    'id' is declared here.
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m41[0m:[93m19[0m - [91merror[0m[90m TS2352: [0mConversion of type 'FlattenMaps<ISubscriptionDocument & { _id: ObjectId; } & { __v: number; }>' to type 'Subscription' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+  Property 'id' is missing in type 'FlattenMaps<ISubscriptionDocument & { _id: ObjectId; } & { __v: number; }>' but required in type 'Subscription'.
+
+[7m41[0m     return doc ? (doc.toJSON() as Subscription) : null;
+[7m  [0m [91m                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/apps/subscription/types/index.ts[0m:[93m7[0m:[93m3[0m
+    [7m7[0m   id: string;
+    [7m [0m [96m  ~~[0m
+    'id' is declared here.
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m63[0m:[93m19[0m - [91merror[0m[90m TS2352: [0mConversion of type 'FlattenMaps<ISubscriptionDocument & { _id: ObjectId; } & { __v: number; }>' to type 'Subscription' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+  Property 'id' is missing in type 'FlattenMaps<ISubscriptionDocument & { _id: ObjectId; } & { __v: number; }>' but required in type 'Subscription'.
+
+[7m63[0m     return doc ? (doc.toJSON() as Subscription) : null;
+[7m  [0m [91m                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/apps/subscription/types/index.ts[0m:[93m7[0m:[93m3[0m
+    [7m7[0m   id: string;
+    [7m [0m [96m  ~~[0m
+    'id' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"../../../core/base"' has no exported member 'BaseRepository'.
+
+[7m2[0m import { BaseRepository } from '../../../core/base';
+[7m [0m [91m         ~~~~~~~~~~~~~~[0m
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m24[0m:[93m28[0m - [91merror[0m[90m TS2352: [0mConversion of type 'FlattenMaps<ISubscriptionDocument & { _id: ObjectId; } & { __v: number; }>' to type 'Subscription' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+  Property 'id' is missing in type 'FlattenMaps<ISubscriptionDocument & { _id: ObjectId; } & { __v: number; }>' but required in type 'Subscription'.
+
+[7m24[0m     return docs.map(doc => doc.toJSON() as Subscription);
+[7m  [0m [91m                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/apps/subscription/types/index.ts[0m:[93m7[0m:[93m3[0m
+    [7m7[0m   id: string;
+    [7m [0m [96m  ~~[0m
+    'id' is declared here.
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m36[0m:[93m19[0m - [91merror[0m[90m TS2352: [0mConversion of type 'FlattenMaps<ISubscriptionDocument & { _id: ObjectId; } & { __v: number; }>' to type 'Subscription' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+  Property 'id' is missing in type 'FlattenMaps<ISubscriptionDocument & { _id: ObjectId; } & { __v: number; }>' but required in type 'Subscription'.
+
+[7m36[0m     return doc ? (doc.toJSON() as Subscription) : null;
+[7m  [0m [91m                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/apps/subscription/types/index.ts[0m:[93m7[0m:[93m3[0m
+    [7m7[0m   id: string;
+    [7m [0m [96m  ~~[0m
+    'id' is declared here.
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m41[0m:[93m19[0m - [91merror[0m[90m TS2352: [0mConversion of type 'FlattenMaps<ISubscriptionDocument & { _id: ObjectId; } & { __v: number; }>' to type 'Subscription' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+  Property 'id' is missing in type 'FlattenMaps<ISubscriptionDocument & { _id: ObjectId; } & { __v: number; }>' but required in type 'Subscription'.
+
+[7m41[0m     return doc ? (doc.toJSON() as Subscription) : null;
+[7m  [0m [91m                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/apps/subscription/types/index.ts[0m:[93m7[0m:[93m3[0m
+    [7m7[0m   id: string;
+    [7m [0m [96m  ~~[0m
+    'id' is declared here.
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m63[0m:[93m19[0m - [91merror[0m[90m TS2352: [0mConversion of type 'FlattenMaps<ISubscriptionDocument & { _id: ObjectId; } & { __v: number; }>' to type 'Subscription' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+  Property 'id' is missing in type 'FlattenMaps<ISubscriptionDocument & { _id: ObjectId; } & { __v: number; }>' but required in type 'Subscription'.
+
+[7m63[0m     return doc ? (doc.toJSON() as Subscription) : null;
+[7m  [0m [91m                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/apps/subscription/types/index.ts[0m:[93m7[0m:[93m3[0m
+    [7m7[0m   id: string;
+    [7m [0m [96m  ~~[0m
+    'id' is declared here.
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:42:35] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'create' does not exist on type 'SubscriptionRepository'.
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m                           ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m22[0m:[93m48[0m - [91merror[0m[90m TS2339: [0mProperty 'findById' does not exist on type 'SubscriptionRepository'.
+
+[7m22[0m     const subscription = await this.repository.findById(id);
+[7m  [0m [91m                                               ~~~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m26[0m:[93m27[0m - [91merror[0m[90m TS2339: [0mProperty 'delete' does not exist on type 'SubscriptionRepository'.
+
+[7m26[0m     await this.repository.delete(id);
+[7m  [0m [91m                          ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m34[0m:[93m48[0m - [91merror[0m[90m TS2339: [0mProperty 'findById' does not exist on type 'SubscriptionRepository'.
+
+[7m34[0m     const subscription = await this.repository.findById(id);
+[7m  [0m [91m                                               ~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'create' does not exist on type 'SubscriptionRepository'.
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m                           ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m22[0m:[93m48[0m - [91merror[0m[90m TS2339: [0mProperty 'findById' does not exist on type 'SubscriptionRepository'.
+
+[7m22[0m     const subscription = await this.repository.findById(id);
+[7m  [0m [91m                                               ~~~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m26[0m:[93m27[0m - [91merror[0m[90m TS2339: [0mProperty 'delete' does not exist on type 'SubscriptionRepository'.
+
+[7m26[0m     await this.repository.delete(id);
+[7m  [0m [91m                          ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m34[0m:[93m48[0m - [91merror[0m[90m TS2339: [0mProperty 'findById' does not exist on type 'SubscriptionRepository'.
+
+[7m34[0m     const subscription = await this.repository.findById(id);
+[7m  [0m [91m                                               ~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:42:44] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'create' does not exist on type 'SubscriptionRepository'.
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m                           ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m22[0m:[93m48[0m - [91merror[0m[90m TS2339: [0mProperty 'findById' does not exist on type 'SubscriptionRepository'.
+
+[7m22[0m     const subscription = await this.repository.findById(id);
+[7m  [0m [91m                                               ~~~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m26[0m:[93m27[0m - [91merror[0m[90m TS2339: [0mProperty 'delete' does not exist on type 'SubscriptionRepository'.
+
+[7m26[0m     await this.repository.delete(id);
+[7m  [0m [91m                          ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m30[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'findByUserId' does not exist on type 'SubscriptionRepository'.
+
+[7m30[0m     return this.repository.findByUserId(userId);
+[7m  [0m [91m                           ~~~~~~~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m34[0m:[93m48[0m - [91merror[0m[90m TS2339: [0mProperty 'findById' does not exist on type 'SubscriptionRepository'.
+
+[7m34[0m     const subscription = await this.repository.findById(id);
+[7m  [0m [91m                                               ~~~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m42[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'findByEventType' does not exist on type 'SubscriptionRepository'.
+
+[7m42[0m     return this.repository.findByEventType(eventType);
+[7m  [0m [91m                           ~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m18[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'create' does not exist on type 'SubscriptionRepository'.
+
+[7m18[0m     return this.repository.create(dto);
+[7m  [0m [91m                           ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m22[0m:[93m48[0m - [91merror[0m[90m TS2339: [0mProperty 'findById' does not exist on type 'SubscriptionRepository'.
+
+[7m22[0m     const subscription = await this.repository.findById(id);
+[7m  [0m [91m                                               ~~~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m26[0m:[93m27[0m - [91merror[0m[90m TS2339: [0mProperty 'delete' does not exist on type 'SubscriptionRepository'.
+
+[7m26[0m     await this.repository.delete(id);
+[7m  [0m [91m                          ~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m30[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'findByUserId' does not exist on type 'SubscriptionRepository'.
+
+[7m30[0m     return this.repository.findByUserId(userId);
+[7m  [0m [91m                           ~~~~~~~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m34[0m:[93m48[0m - [91merror[0m[90m TS2339: [0mProperty 'findById' does not exist on type 'SubscriptionRepository'.
+
+[7m34[0m     const subscription = await this.repository.findById(id);
+[7m  [0m [91m                                               ~~~~~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m42[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'findByEventType' does not exist on type 'SubscriptionRepository'.
+
+[7m42[0m     return this.repository.findByEventType(eventType);
+[7m  [0m [91m                           ~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:43:18] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m30[0m:[93m28[0m - [91merror[0m[90m TS2551: [0mProperty 'findByUserId' does not exist on type 'SubscriptionRepository'. Did you mean 'findById'?
+
+[7m30[0m     return this.repository.findByUserId(userId);
+[7m  [0m [91m                           ~~~~~~~~~~~~[0m
+
+  [96msrc/core/base/repository/index.ts[0m:[93m35[0m:[93m9[0m
+    [7m35[0m   async findById(id: string): Promise<TModel | null> {
+    [7m  [0m [96m        ~~~~~~~~[0m
+    'findById' is declared here.
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m42[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'findByEventType' does not exist on type 'SubscriptionRepository'.
+
+[7m42[0m     return this.repository.findByEventType(eventType);
+[7m  [0m [91m                           ~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m30[0m:[93m28[0m - [91merror[0m[90m TS2551: [0mProperty 'findByUserId' does not exist on type 'SubscriptionRepository'. Did you mean 'findById'?
+
+[7m30[0m     return this.repository.findByUserId(userId);
+[7m  [0m [91m                           ~~~~~~~~~~~~[0m
+
+  [96msrc/core/base/repository/index.ts[0m:[93m35[0m:[93m9[0m
+    [7m35[0m   async findById(id: string): Promise<TModel | null> {
+    [7m  [0m [96m        ~~~~~~~~[0m
+    'findById' is declared here.
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m42[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'findByEventType' does not exist on type 'SubscriptionRepository'.
+
+[7m42[0m     return this.repository.findByEventType(eventType);
+[7m  [0m [91m                           ~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:44:06] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m30[0m:[93m28[0m - [91merror[0m[90m TS2551: [0mProperty 'findByUserId' does not exist on type 'SubscriptionRepository'. Did you mean 'findById'?
+
+[7m30[0m     return this.repository.findByUserId(userId);
+[7m  [0m [91m                           ~~~~~~~~~~~~[0m
+
+  [96msrc/core/base/repository/index.ts[0m:[93m35[0m:[93m9[0m
+    [7m35[0m   async findById(id: string): Promise<TModel | null> {
+    [7m  [0m [96m        ~~~~~~~~[0m
+    'findById' is declared here.
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m42[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'findByEventType' does not exist on type 'SubscriptionRepository'.
+
+[7m42[0m     return this.repository.findByEventType(eventType);
+[7m  [0m [91m                           ~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m30[0m:[93m28[0m - [91merror[0m[90m TS2551: [0mProperty 'findByUserId' does not exist on type 'SubscriptionRepository'. Did you mean 'findById'?
+
+[7m30[0m     return this.repository.findByUserId(userId);
+[7m  [0m [91m                           ~~~~~~~~~~~~[0m
+
+  [96msrc/core/base/repository/index.ts[0m:[93m35[0m:[93m9[0m
+    [7m35[0m   async findById(id: string): Promise<TModel | null> {
+    [7m  [0m [96m        ~~~~~~~~[0m
+    'findById' is declared here.
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m42[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'findByEventType' does not exist on type 'SubscriptionRepository'.
+
+[7m42[0m     return this.repository.findByEventType(eventType);
+[7m  [0m [91m                           ~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:44:27] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m30[0m:[93m28[0m - [91merror[0m[90m TS2551: [0mProperty 'findByUserId' does not exist on type 'SubscriptionRepository'. Did you mean 'findById'?
+
+[7m30[0m     return this.repository.findByUserId(userId);
+[7m  [0m [91m                           ~~~~~~~~~~~~[0m
+
+  [96msrc/core/base/repository/index.ts[0m:[93m35[0m:[93m9[0m
+    [7m35[0m   async findById(id: string): Promise<TModel | null> {
+    [7m  [0m [96m        ~~~~~~~~[0m
+    'findById' is declared here.
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m42[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'findByEventType' does not exist on type 'SubscriptionRepository'.
+
+[7m42[0m     return this.repository.findByEventType(eventType);
+[7m  [0m [91m                           ~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m30[0m:[93m28[0m - [91merror[0m[90m TS2551: [0mProperty 'findByUserId' does not exist on type 'SubscriptionRepository'. Did you mean 'findById'?
+
+[7m30[0m     return this.repository.findByUserId(userId);
+[7m  [0m [91m                           ~~~~~~~~~~~~[0m
+
+  [96msrc/core/base/repository/index.ts[0m:[93m35[0m:[93m9[0m
+    [7m35[0m   async findById(id: string): Promise<TModel | null> {
+    [7m  [0m [96m        ~~~~~~~~[0m
+    'findById' is declared here.
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m42[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'findByEventType' does not exist on type 'SubscriptionRepository'.
+
+[7m42[0m     return this.repository.findByEventType(eventType);
+[7m  [0m [91m                           ~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:44:38] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m30[0m:[93m28[0m - [91merror[0m[90m TS2551: [0mProperty 'findByUserId' does not exist on type 'SubscriptionRepository'. Did you mean 'findById'?
+
+[7m30[0m     return this.repository.findByUserId(userId);
+[7m  [0m [91m                           ~~~~~~~~~~~~[0m
+
+  [96msrc/core/base/repository/index.ts[0m:[93m35[0m:[93m9[0m
+    [7m35[0m   async findById(id: string): Promise<TModel | null> {
+    [7m  [0m [96m        ~~~~~~~~[0m
+    'findById' is declared here.
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m42[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'findByEventType' does not exist on type 'SubscriptionRepository'.
+
+[7m42[0m     return this.repository.findByEventType(eventType);
+[7m  [0m [91m                           ~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m30[0m:[93m28[0m - [91merror[0m[90m TS2551: [0mProperty 'findByUserId' does not exist on type 'SubscriptionRepository'. Did you mean 'findById'?
+
+[7m30[0m     return this.repository.findByUserId(userId);
+[7m  [0m [91m                           ~~~~~~~~~~~~[0m
+
+  [96msrc/core/base/repository/index.ts[0m:[93m35[0m:[93m9[0m
+    [7m35[0m   async findById(id: string): Promise<TModel | null> {
+    [7m  [0m [96m        ~~~~~~~~[0m
+    'findById' is declared here.
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m42[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'findByEventType' does not exist on type 'SubscriptionRepository'.
+
+[7m42[0m     return this.repository.findByEventType(eventType);
+[7m  [0m [91m                           ~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:45:09] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m30[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'find' does not exist on type 'SubscriptionRepository'.
+
+[7m30[0m     return this.repository.find({ userId });
+[7m  [0m [91m                           ~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m42[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'findByEventType' does not exist on type 'SubscriptionRepository'.
+
+[7m42[0m     return this.repository.findByEventType(eventType);
+[7m  [0m [91m                           ~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m30[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'find' does not exist on type 'SubscriptionRepository'.
+
+[7m30[0m     return this.repository.find({ userId });
+[7m  [0m [91m                           ~~~~[0m
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m42[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'findByEventType' does not exist on type 'SubscriptionRepository'.
+
+[7m42[0m     return this.repository.findByEventType(eventType);
+[7m  [0m [91m                           ~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:45:45] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m42[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'findByEventType' does not exist on type 'SubscriptionRepository'.
+
+[7m42[0m     return this.repository.findByEventType(eventType);
+[7m  [0m [91m                           ~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/services/subscription.service.ts[0m:[93m42[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty 'findByEventType' does not exist on type 'SubscriptionRepository'.
+
+[7m42[0m     return this.repository.findByEventType(eventType);
+[7m  [0m [91m                           ~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:46:19] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m22[0m:[93m17[0m - [91merror[0m[90m TS2339: [0mProperty 'find' does not exist on type 'SubscriptionRepository'.
+
+[7m22[0m     return this.find({ eventType });
+[7m  [0m [91m                ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m22[0m:[93m17[0m - [91merror[0m[90m TS2339: [0mProperty 'find' does not exist on type 'SubscriptionRepository'.
+
+[7m22[0m     return this.find({ eventType });
+[7m  [0m [91m                ~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:46:28] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m22[0m:[93m17[0m - [91merror[0m[90m TS2339: [0mProperty 'find' does not exist on type 'SubscriptionRepository'.
+
+[7m22[0m     return this.find({ eventType });
+[7m  [0m [91m                ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/repositories/subscription.repository.ts[0m:[93m22[0m:[93m17[0m - [91merror[0m[90m TS2339: [0mProperty 'find' does not exist on type 'SubscriptionRepository'.
+
+[7m22[0m     return this.find({ eventType });
+[7m  [0m [91m                ~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:50:03] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:50:39] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:52:03] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:52:11] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:52:16] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:52:23] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:52:48] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:53:26] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:53:29] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:53:35] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:53:49] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:54:05] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:54:11] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:54:28] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:54:44] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:54:53] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:55:17] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:55:24] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:55:28] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:55:33] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:55:55] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:56:02] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:56:25] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"../../apps"' has no exported member named 'subscriptionRoutes'. Did you mean 'SubscriptionRoutes'?
+
+[7m2[0m import { subscriptionRoutes } from '../../apps';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:56:43] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2614: [0mModule '"../../apps/subscription/routes/subscription.routes"' has no exported member 'SubscriptionRoutes'. Did you mean to use 'import SubscriptionRoutes from "../../apps/subscription/routes/subscription.routes"' instead?
+
+[7m2[0m import { SubscriptionRoutes } from '../../apps/subscription/routes/subscription.routes';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/common/global-router/index.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2614: [0mModule '"../../apps/subscription/routes/subscription.routes"' has no exported member 'SubscriptionRoutes'. Did you mean to use 'import SubscriptionRoutes from "../../apps/subscription/routes/subscription.routes"' instead?
+
+[7m2[0m import { SubscriptionRoutes } from '../../apps/subscription/routes/subscription.routes';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-08 20:56:53] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/routes/subscription.routes.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2614: [0mModule '"../controllers/subscription.controller"' has no exported member 'SubscriptionController'. Did you mean to use 'import SubscriptionController from "../controllers/subscription.controller"' instead?
+
+[7m2[0m import { SubscriptionController } from '../controllers/subscription.controller';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/routes/subscription.routes.ts[0m:[93m2[0m:[93m10[0m - [91merror[0m[90m TS2614: [0mModule '"../controllers/subscription.controller"' has no exported member 'SubscriptionController'. Did you mean to use 'import SubscriptionController from "../controllers/subscription.controller"' instead?
+
+[7m2[0m import { SubscriptionController } from '../controllers/subscription.controller';
+[7m [0m [91m         ~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)

@@ -1,0 +1,1 @@
+export {default as SubscriptionRepository} from './subscription.repository';

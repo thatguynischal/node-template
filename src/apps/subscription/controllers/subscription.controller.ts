@@ -1,10 +1,10 @@
 import { Request, Response } from 'express';
-import { SubscriptionService } from '../services/subscription.service';
+import { SubscriptionService } from '../services';
 import { CreateSubscriptionDto, EventType } from '../types';
 
 const subscriptionService = new SubscriptionService();
 
-export class SubscriptionController {
+class SubscriptionController {
   async createSubscription(req: Request, res: Response): Promise<void> {
     try {
       const dto: CreateSubscriptionDto = {
@@ -20,6 +20,10 @@ export class SubscriptionController {
       const subscription = await subscriptionService.createSubscription(dto);
       res.status(201).json(subscription);
     } catch (error) {
+      if (error instanceof Error && error.message.includes('Subscription already exists')) {
+        res.status(409).json({ message: error.message });
+        return;
+      }
       res.status(500).json({ message: 'Failed to create subscription' });
     }
   }
@@ -44,3 +48,5 @@ export class SubscriptionController {
     }
   }
 }
+
+export default SubscriptionController;
