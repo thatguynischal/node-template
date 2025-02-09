@@ -529,3 +529,4 @@
 [2025-02-09 20:20:37] (info): Server running on http://localhost:3000
 [2025-02-09 20:20:37] (info): Socket.IO server is ready for connections
 [2025-02-09 20:20:40] (info): Client connected: ap6dQApIH02820INAAAB
+[2025-02-09 20:33:43] (info): Client ap6dQApIH02820INAAAB disconnected: transport close
