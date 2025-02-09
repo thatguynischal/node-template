@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socket.IO Event Test Client</title>
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .event-box {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .event-type {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .timestamp {
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        .payload {
+            margin-top: 5px;
+            padding: 5px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+        }
+        button {
+            padding: 8px 16px;
+            margin: 5px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            background-color: #3498db;
+            color: white;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        button.subscribed {
+            background-color: #27ae60;
+        }
+        #events {
+            margin-top: 20px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Socket.IO Event Test Client</h1>
+    
+    <div id="connection-status">
+        Connecting...
+    </div>
+
+    <div id="subscription-controls">
+        <h3>Event Subscriptions</h3>
+        <button data-event="userLoggedIn" id="btn-userLoggedIn">Subscribe to User Logins</button>
+        <button data-event="newOrder" id="btn-newOrder">Subscribe to New Orders</button>
+        <button data-event="paymentReceived" id="btn-paymentReceived">Subscribe to Payments</button>
+        <button data-event="stockUpdate" id="btn-stockUpdate">Subscribe to Stock Updates</button>
+    </div>
+
+    <div id="events"></div>
+
+    <script>
+        const socketUrl = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+            ? `${window.location.protocol}//${window.location.hostname}:3000`
+            : window.location.origin;
+            
+        const socket = io(socketUrl, {
+            transports: ['websocket', 'polling']
+        });
+
+        const subscribedEvents = new Set();
+
+        // Connection status handling
+        socket.on('connect', () => {
+            document.getElementById('connection-status').innerHTML = 
+                `<span style="color: green;">Connected (ID: ${socket.id})</span>`;
+        });
+
+        socket.on('disconnect', () => {
+            document.getElementById('connection-status').innerHTML = 
+                '<span style="color: red;">Disconnected</span>';
+        });
+
+        socket.on('connect_error', (error) => {
+            console.error('Connection error:', error);
+            document.getElementById('connection-status').innerHTML = 
+                `<span style="color: red;">Connection Error: ${error.message}</span>`;
+        });
+
+        // Event handling
+        socket.on('event', (data) => {
+            const eventsDiv = document.getElementById('events');
+            const eventBox = document.createElement('div');
+            eventBox.className = 'event-box';
+            
+            const timestamp = new Date(data.timestamp).toLocaleString();
+            
+            eventBox.innerHTML = `
+                <div class="event-type">${data.type}</div>
+                <div class="timestamp">${timestamp}</div>
+                <pre class="payload">${JSON.stringify(data.payload, null, 2)}</pre>
+            `;
+            
+            eventsDiv.insertBefore(eventBox, eventsDiv.firstChild);
+        });
+
+        function toggleSubscription(eventType) {
+            const button = document.getElementById(`btn-${eventType}`);
+            
+            if (subscribedEvents.has(eventType)) {
+                socket.emit('unsubscribe', eventType);
+                subscribedEvents.delete(eventType);
+                button.classList.remove('subscribed');
+                button.textContent = `Subscribe to ${formatEventName(eventType)}`;
+            } else {
+                socket.emit('subscribe', eventType);
+                subscribedEvents.add(eventType);
+                button.classList.add('subscribed');
+                button.textContent = `Unsubscribe from ${formatEventName(eventType)}`;
+            }
+        }
+
+        function formatEventName(eventType) {
+            return eventType
+                .replace(/([A-Z])/g, ' $1')
+                .replace(/^./, str => str.toUpperCase());
+        }
+
+        // Add event listeners to all subscription buttons
+        document.querySelectorAll('#subscription-controls button').forEach(button => {
+            button.addEventListener('click', () => {
+                const eventType = button.dataset.event;
+                toggleSubscription(eventType);
+            });
+        });
+    </script>
+</body>
+</html>

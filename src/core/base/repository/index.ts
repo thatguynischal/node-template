@@ -39,7 +39,7 @@ export abstract class BaseRepository<
 
   async create(input: TCreateDto): Promise<TModel> {
     const doc = await new this.model(input).save();
-    return doc.toJSON() as TModel;
+    return  doc.toJSON() as TModel;
   }
 
   async update(

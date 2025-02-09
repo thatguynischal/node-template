@@ -21,6 +21,10 @@ class SubscriptionRepository extends BaseRepository<
   async findByEventType(eventType: EventType): Promise<Subscription[]> {
     return this.findAll({ eventType });
   }
+
+  async findById(id: string): Promise<Subscription | null> {
+    return this.findOne({ id });
+  }
 }
 
 export default SubscriptionRepository;
