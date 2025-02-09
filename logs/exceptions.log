@@ -5343,3 +5343,43 @@ TSError: ⨯ Unable to compile TypeScript:
     at Module.load (node:internal/modules/cjs/loader:1207:32)
     at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
     at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-02-09 20:07:45] (error): uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at /home/chal/outcode-nodets/src/server.ts:18:12
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/chal/outcode-nodets/src/server.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-02-09 20:07:53] (error): uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at /home/chal/outcode-nodets/src/server.ts:18:12
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/chal/outcode-nodets/src/server.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-02-09 20:16:24] (error): uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/routes/subscription.routes.ts[0m:[93m4[0m:[93m26[0m - [91merror[0m[90m TS2307: [0mCannot find module '../middleware/validate' or its corresponding type declarations.
+
+[7m4[0m import { validate } from '../middleware/validate';
+[7m [0m [91m                         ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/apps/subscription/routes/subscription.routes.ts[0m:[93m4[0m:[93m26[0m - [91merror[0m[90m TS2307: [0mCannot find module '../middleware/validate' or its corresponding type declarations.
+
+[7m4[0m import { validate } from '../middleware/validate';
+[7m [0m [91m                         ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/chal/outcode-nodets/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)

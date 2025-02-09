@@ -432,3 +432,100 @@
 [2025-02-09 16:02:49] (info): Client connected: HKZe0jWkXJBJkv5iAAAF
 [2025-02-09 16:02:52] (info): Client HKZe0jWkXJBJkv5iAAAF subscribed to paymentReceived
 [2025-02-09 16:02:58] (info): Client HKZe0jWkXJBJkv5iAAAF subscribed to newOrder
+[2025-02-09 20:07:45] (info): Event emitter initialized with Socket.IO server
+[2025-02-09 20:07:45] (info): Socket.IO server initialized successfully
+[2025-02-09 20:07:45] (info): Server running on http://localhost:3000
+[2025-02-09 20:07:45] (info): Socket.IO server is ready for connections
+[2025-02-09 20:07:45] (info): Event emitter initialized with Socket.IO server
+[2025-02-09 20:07:46] (info): Client connected: 8YgJp2UPLd1pLbggAAAB
+[2025-02-09 20:07:53] (info): Event emitter initialized with Socket.IO server
+[2025-02-09 20:08:25] (info): Event emitter initialized with Socket.IO server
+[2025-02-09 20:08:25] (info): Socket.IO server initialized successfully
+[2025-02-09 20:08:25] (info): Server running on http://localhost:3000
+[2025-02-09 20:08:25] (info): Socket.IO server is ready for connections
+[2025-02-09 20:08:28] (info): Client connected: caA9ukJpdyCnXo9AAAAB
+[2025-02-09 20:08:57] (info): Client connected: nITKUBzpWWZ5Zl-nAAAD
+[2025-02-09 20:09:09] (info): Client caA9ukJpdyCnXo9AAAAB disconnected: transport close
+[2025-02-09 20:11:12] (info): Event emitter initialized with Socket.IO server
+[2025-02-09 20:11:12] (info): Socket.IO server initialized successfully
+[2025-02-09 20:11:12] (info): Server running on http://localhost:3000
+[2025-02-09 20:11:12] (info): Socket.IO server is ready for connections
+[2025-02-09 20:11:17] (info): Client connected: lq8Hk0l0Jc-LDwRCAAAB
+[2025-02-09 20:11:25] (info): Event emitter initialized with Socket.IO server
+[2025-02-09 20:11:25] (info): Socket.IO server initialized successfully
+[2025-02-09 20:11:25] (info): Server running on http://localhost:3000
+[2025-02-09 20:11:25] (info): Socket.IO server is ready for connections
+[2025-02-09 20:11:28] (info): Client connected: m4VBI6O_0sIhNOXpAAAB
+[2025-02-09 20:12:02] (info): Event emitter initialized with Socket.IO server
+[2025-02-09 20:12:02] (info): Socket.IO server initialized successfully
+[2025-02-09 20:12:02] (info): Server running on http://localhost:3000
+[2025-02-09 20:12:02] (info): Socket.IO server is ready for connections
+[2025-02-09 20:12:09] (info): Event emitter initialized with Socket.IO server
+[2025-02-09 20:12:09] (info): Socket.IO server initialized successfully
+[2025-02-09 20:12:09] (info): Server running on http://localhost:3000
+[2025-02-09 20:12:09] (info): Socket.IO server is ready for connections
+[2025-02-09 20:12:10] (info): Client connected: PXPVrmincQMdAdLkAAAB
+[2025-02-09 20:12:47] (info): Event emitter initialized with Socket.IO server
+[2025-02-09 20:12:47] (info): Socket.IO server initialized successfully
+[2025-02-09 20:12:47] (info): Server running on http://localhost:3000
+[2025-02-09 20:12:47] (info): Socket.IO server is ready for connections
+[2025-02-09 20:12:48] (info): Client connected: tcCjIRg6Ow6QqH-0AAAB
+[2025-02-09 20:13:10] (info): Event emitter initialized with Socket.IO server
+[2025-02-09 20:13:10] (info): Socket.IO server initialized successfully
+[2025-02-09 20:13:10] (info): Server running on http://localhost:3000
+[2025-02-09 20:13:10] (info): Socket.IO server is ready for connections
+[2025-02-09 20:13:13] (info): Client connected: pQQOjIgBOTTLe_RJAAAB
+[2025-02-09 20:13:59] (info): Event emitter initialized with Socket.IO server
+[2025-02-09 20:13:59] (info): Socket.IO server initialized successfully
+[2025-02-09 20:13:59] (info): Server running on http://localhost:3000
+[2025-02-09 20:13:59] (info): Socket.IO server is ready for connections
+[2025-02-09 20:14:02] (info): Client connected: nuPK0s85P1VXf2QyAAAB
+[2025-02-09 20:15:02] (info): Event emitter initialized with Socket.IO server
+[2025-02-09 20:15:02] (info): Socket.IO server initialized successfully
+[2025-02-09 20:15:02] (info): Server running on http://localhost:3000
+[2025-02-09 20:15:02] (info): Socket.IO server is ready for connections
+[2025-02-09 20:15:04] (info): Client connected: c4FyFi06xGaibViIAAAB
+[2025-02-09 20:15:08] (info): Event emitter initialized with Socket.IO server
+[2025-02-09 20:15:08] (info): Socket.IO server initialized successfully
+[2025-02-09 20:15:08] (info): Server running on http://localhost:3000
+[2025-02-09 20:15:08] (info): Socket.IO server is ready for connections
+[2025-02-09 20:15:14] (info): Event emitter initialized with Socket.IO server
+[2025-02-09 20:15:14] (info): Socket.IO server initialized successfully
+[2025-02-09 20:15:14] (info): Server running on http://localhost:3000
+[2025-02-09 20:15:14] (info): Socket.IO server is ready for connections
+[2025-02-09 20:15:17] (info): Client connected: qdBrSdBKYbhVOdMtAAAB
+[2025-02-09 20:15:59] (info): Event emitter initialized with Socket.IO server
+[2025-02-09 20:15:59] (info): Socket.IO server initialized successfully
+[2025-02-09 20:15:59] (info): Server running on http://localhost:3000
+[2025-02-09 20:15:59] (info): Socket.IO server is ready for connections
+[2025-02-09 20:16:04] (info): Client connected: jnz1bYqLl6BSM6RFAAAB
+[2025-02-09 20:16:51] (info): Event emitter initialized with Socket.IO server
+[2025-02-09 20:16:51] (info): Socket.IO server initialized successfully
+[2025-02-09 20:16:51] (info): Server running on http://localhost:3000
+[2025-02-09 20:16:51] (info): Socket.IO server is ready for connections
+[2025-02-09 20:16:53] (info): Client connected: nEybqf5Uygg1SPHBAAAB
+[2025-02-09 20:18:01] (info): Event emitter initialized with Socket.IO server
+[2025-02-09 20:18:01] (info): Socket.IO server initialized successfully
+[2025-02-09 20:18:01] (info): Server running on http://localhost:3000
+[2025-02-09 20:18:01] (info): Socket.IO server is ready for connections
+[2025-02-09 20:18:03] (info): Client connected: sMig8ElvQjV4DRERAAAB
+[2025-02-09 20:18:23] (info): Event emitter initialized with Socket.IO server
+[2025-02-09 20:18:23] (info): Socket.IO server initialized successfully
+[2025-02-09 20:18:23] (info): Server running on http://localhost:3000
+[2025-02-09 20:18:23] (info): Socket.IO server is ready for connections
+[2025-02-09 20:18:26] (info): Client connected: ApmvV4fonwrg9-EEAAAB
+[2025-02-09 20:19:53] (info): Event emitter initialized with Socket.IO server
+[2025-02-09 20:19:53] (info): Socket.IO server initialized successfully
+[2025-02-09 20:19:53] (info): Server running on http://localhost:3000
+[2025-02-09 20:19:53] (info): Socket.IO server is ready for connections
+[2025-02-09 20:19:58] (info): Client connected: UXdy0R1AYuKRomUpAAAB
+[2025-02-09 20:20:28] (info): Event emitter initialized with Socket.IO server
+[2025-02-09 20:20:28] (info): Socket.IO server initialized successfully
+[2025-02-09 20:20:28] (info): Server running on http://localhost:3000
+[2025-02-09 20:20:28] (info): Socket.IO server is ready for connections
+[2025-02-09 20:20:30] (info): Client connected: UfuORLDmR4cCoBAmAAAB
+[2025-02-09 20:20:37] (info): Event emitter initialized with Socket.IO server
+[2025-02-09 20:20:37] (info): Socket.IO server initialized successfully
+[2025-02-09 20:20:37] (info): Server running on http://localhost:3000
+[2025-02-09 20:20:37] (info): Socket.IO server is ready for connections
+[2025-02-09 20:20:40] (info): Client connected: ap6dQApIH02820INAAAB
